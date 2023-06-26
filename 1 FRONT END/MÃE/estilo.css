@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-watercolor-floral-background_717440-1212.jpg?w=2000);
+    background-size:cover ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.painel{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0, 255, 255, 0.688);
+    border-radius: 10px;
+    padding-left: 40px;
+    margin: auto;
+    border: 1px; 
+}
+ .botao{
+    background-color: rgb(178, 127, 255);
+    color: rgb(17, 0, 255);
+    border: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    
+ }

@@ -1,0 +1,16 @@
+.quadrado{
+    width: 200px;
+    height: 200px;
+
+    text-align: center;
+    font-size: 150px;
+}
+
+.jogo{
+    background:rgb(181, 140, 140) ;
+    color: black;
+}
+
+body{
+    background-color:rgb(32, 25, 51) ;
+}

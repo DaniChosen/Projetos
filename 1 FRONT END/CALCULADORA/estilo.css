@@ -1,0 +1,45 @@
+.painel{
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+    font-family: cursive;
+    background-color: rgb(34, 34, 64);
+    color: aqua;
+
+}
+
+input{
+    border-radius: 10px;
+    height:30px ;
+    width: 250px;
+    text-align: center;
+
+}
+
+#resultado{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+
+}
+
+body{
+    background-image: linear-gradient( to left,rgb(221, 0, 255),blue);
+
+}
+
+.botao{
+background-color: blueviolet;
+color: aliceblue;
+border-radius: 10px;
+
+}
+.botao:hover{
+
+background-color: brown;
+
+}

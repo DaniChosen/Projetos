@@ -1,0 +1,55 @@
+body, p {
+    padding: 0;
+    margin: 0;
+    font-size: cm;
+    display: grid;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+.principal {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%; 
+    grid-template-rows: 100px 450px 150px;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "secao barra-lateral"
+    "rodape rodape"
+    ;
+}
+
+header {
+    grid-area: cabecalho;
+    background-color: rgb(255, 187, 0);
+}
+section {
+    grid-area: secao;
+    background-color: brown;
+
+}
+
+aside {
+    grid-area: barra-lateral;
+    background-color: rgb(5, 2, 7);
+
+}
+
+footer {
+    grid-area: rodape;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parte1,.parte2,.parte3 {
+    width: 25%;
+    margin: 0 2px;
+    background-color: rgb(252, 186, 4);
+
+} 
+
+.parte2 {
+    margin: 0;
+    width: 50%;
+}

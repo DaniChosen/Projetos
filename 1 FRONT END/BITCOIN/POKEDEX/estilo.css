@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://files.meiobit.com/wp-content/uploads/2016/08/20160811pokemon-uranium.png);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family : 'gameovercre' , sans-serif ;  
+    text-align: center;
+}
+.painel{
+    width: 550px;
+    height: 720px;
+    background-color:rgba(0, 0, 0, 0.722);
+    border-radius: 20px;
+    padding-left: 50px;
+    margin: auto;
+    border: 2px; 
+    box-shadow: 5px 0px 20px 10px yellow;
+    animation:carregar 10s alternate; 
+    
+}
+@keyframes carregar {
+    0%{height: 0;}
+}
+.pokemon{
+    width: 200px;
+    height: 200px;
+}
+.buscar{
+    width: 100px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 10px;
+    
+}
+.proximo{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(108, 42, 165);
+    border-radius: 10px;
+    
+}
+.anterior{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(201, 218, 10);
+    border-radius: 10px;
+}
+#entrada{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}

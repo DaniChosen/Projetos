@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namorados</title>
+
+<style>
+
+body{
+    background-color: rgb(147, 42, 165);
+}
+
+#sim{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border:2px solid white; 
+    border-radius: 10px;
+    margin-left: -50px;
+}
+#nao{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border:2px solid white ;
+    border-radius:10px ;
+    margin-left:10px ;
+}
+#sim:hover, #nao:hover{
+    background-color: black;
+    transition: 2s;
+}
+
+.painel{
+    margin: auto;
+    width:500px;
+    height:500px;
+    text-align: center;
+    background-color: rgb(103, 27, 174);
+    padding-top:20px;
+    border-radius:20px;
+
+    box-shadow: 2px 2px 20px black;
+    margin-top: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+</style>
+
+</head>
+<body>
+
+    <div class="painel">
+       <h1>Feliz Dia dos Namorados</h1>
+       <img width="200" src="https://www.imagenspng.com.br/wp-content/uploads/2022/04/flork-png-066.png" alt="">
+
+       <h2>Quer ser meu eterno Namorado?</h2>
+
+       <button id="sim">sim!</button>
+       <button id="nao" onmouseover="fugir()">Não!</button>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+<script>
+    function fugir(){
+        var botaoNao = document.getElementById("nao")
+
+        var larguraJanela = window.innerWidth;
+        var alturaJanela = window.innerHeight;
+
+        var maxX = larguraJanela - botaoNao.offsetWidth;
+        var maxY = alturaJanela - botaoNao.offsetHeight;
+
+        var aleatorioX = Math.floor(Math.random() * maxX);
+        var aleatorioY = Math.floor(Math.random() * maxY);
+
+        botaoNao.style.left = aleatorioX + "px";
+        botaoNao.style.top = aleatorioY + "px";
+    }
+
+
+</script>
+
+    
+</body>
+</html>

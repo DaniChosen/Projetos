@@ -1,0 +1,82 @@
+.fundo{
+    width: 100%;                                /*ocupar toda tela*/
+    height: 600px;                  /*altura*/
+    border-bottom: 6px solid orange;          /*borda*/
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;            /*img de fundo ajustada*/
+    position: relative;                /*posição nunca muda*/                
+    background-attachment: fixed;      /*deixa imagem de fundo fixa*/
+    background-image: url(https://cdn.shopify.com/s/files/1/0305/4075/9177/products/painel-fotografico-paisagem-estrada-ao-por-do-sol-n016120-341798.jpg?v=1643335329 );                 
+}
+
+.textoViagem{
+font-family: travel;
+color:white ;
+text-align: center;
+font-size:50px;
+padding-top: 200px;
+animation: aparecer 9s;
+
+}
+@keyframes aparecer{
+    0%{
+        font-size: 2px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+.aviao{
+    width: 350px;
+    position: absolute;
+    right: -200px;
+    top: 400px;
+}
+
+.card{
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 15px black;
+    transition: 2s;
+    height: 400px;
+}
+
+.card:hover{
+    width: 20rem !important;
+    transition: 2s;
+}
+.rodape{
+    color: white;
+    padding-top: 30px;
+    border-top: 5px solid orange;
+    padding-bottom: 30px;
+}
+
+a{
+    color: white !important;
+}
+.img-fluid {
+    box-shadow: 2px 2px 20px black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    transition: 2s;
+    
+}
+
+.img-fluid:hover{
+    filter: grayscale(100%);
+    transition: 2s;
+}
+
+.informacao {
+    margin-top: 30px;
+}
+.preco{
+    font-size: 20px !important;
+    padding: 10px !important;
+    border-bottom: 7px solid #dc3545;  
+
+}

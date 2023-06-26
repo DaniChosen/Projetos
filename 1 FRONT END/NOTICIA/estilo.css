@@ -1,0 +1,23 @@
+body{
+    
+    background-color: rgb(47, 231, 255);
+    text-align: center ;
+        
+        
+    }
+    ul {
+        list-style-type: none;
+    
+    }
+    .center{
+    text-align: center;
+
+    }
+    .tabela{
+        text-align: center;
+        background-color: rgb(51, 51, 172);
+        color: aliceblue;
+        margin: 0px auto;
+    }
+    
+    

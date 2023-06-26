@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table id="Tabela" class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nome </th>
+                <th>Idade </th>
+                <th>Endereço</th>
+                <th>Telefone</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Joao </td>
+                <td> 30 </td>
+                <td>Rua das flores </td>
+                <td>4499465343</td>
+                <td>Nova york</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>25 </td>
+                <td>Rua castro</td>
+                <td>4476567777</td>
+                <td>Londres</td>
+            </tr>
+            <tr>
+                <td> Jose </td>
+                <td> 17 </td>
+                <td>Rua sebastião</td>
+                <td>4487566768</td>
+                <td>California</td>
+            </tr>
+
+        
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+  <script>
+    $(document).ready( function () {
+    $('#Tabela').DataTable();
+} );
+
+var table = new DataTable('#Tabela', {
+    language: {
+        url: 'https://cdn.datatables.net/plug-ins/1.13.4/i18n/pt-PT.json',
+    },
+});
+
+  </script>
+
+
+    
+</body>
+</html>

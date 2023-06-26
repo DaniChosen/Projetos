@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo da velha</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <button onclick="gerarBatalha()">Gerar Batalha</button>
+        <span id="jogador1"> </span>
+        <span> vs </span>
+        <span id="jogador2"> </span>
+
+
+
+        <table class="jogo" border="2">
+
+            <tr>
+                <td class="quadrado" onclick="jogar(this)"></td>
+                <td class="quadrado"onclick="jogar(this)"></td>
+                <td class="quadrado"onclick="jogar(this)"></td>
+            </tr>
+            <tr>
+                <td class="quadrado"onclick="jogar(this)" ></td>
+                <td class="quadrado"onclick="jogar(this)" ></td>
+                <td class="quadrado"onclick="jogar(this)" ></td>
+            </tr>
+            <tr>
+                <td class="quadrado"onclick="jogar(this)" ></td>
+                <td class="quadrado"onclick="jogar(this)" ></td>
+                <td class="quadrado" onclick="jogar(this)" ></td>
+            </tr>
+
+        </table>
+
+        <button onclick="reiniciar()"> reiniciar </button>
+         
+
+    </div>
+
+
+</body>
+</html>

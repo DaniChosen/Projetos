@@ -13,8 +13,8 @@ var velocidadeRaquete = 12;
 var bolaRadius = 10;
 var bolaX = canvas.width / 2;
 var bolaY = canvas.height - 30;
-var bolaDX = 4;          //direção da bola em X (esquerda/direita)
-var bolaDY = -4;        //direção da bola em Y (acima/abaixo)
+var bolaDX = 5;          //direção da bola em X (esquerda/direita)
+var bolaDY = -5;        //direção da bola em Y (acima/abaixo)
 
 
 var tijolosPorLinha = 3;
